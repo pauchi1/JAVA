@@ -23,14 +23,18 @@ public class Calculadora {
 		
 	}
 	
-public double dividir(double a, double b) {
+	public double dividir(double a, double b) {
 		
 		double resultado = a / b;
 		return resultado;
 		
 	}
 	
-	
-	
+	public double promediar(double n1, double n2, double n3){
+		
+		double resultado = (n1 + n2 + n3) / 3;
+		return resultado;
+		
+	}
 	
 }
