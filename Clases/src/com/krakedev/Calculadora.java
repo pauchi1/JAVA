@@ -14,6 +14,12 @@ public class Calculadora {
 		int resultado = a - b;
 		return resultado;
 		
+	}
+	
+	public double multiplicar(double a, double b) {
+		
+		double resultado = a * b;
+		return resultado;
 		
 	}
 	
