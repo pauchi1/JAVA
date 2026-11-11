@@ -7,6 +7,4 @@ public class Vehículo {
 	public String anio;
 	public Double valor;
 	
-	
-	
 }
