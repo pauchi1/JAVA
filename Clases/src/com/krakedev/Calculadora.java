@@ -23,5 +23,14 @@ public class Calculadora {
 		
 	}
 	
+public double dividir(double a, double b) {
+		
+		double resultado = a / b;
+		return resultado;
+		
+	}
+	
+	
+	
 	
 }
