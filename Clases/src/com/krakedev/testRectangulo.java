@@ -3,7 +3,6 @@ package com.krakedev;
 public class testRectangulo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Rectangulo r1 = new Rectangulo();
 		
@@ -26,8 +25,6 @@ public class testRectangulo {
 		System.out.println("Resultado rectangulo 2: "+ resultadoArea2);
 		int resultadoPerimetro2 = r2.calcularPerimetro();
 		System.out.println("Resultado del perímetro 2: "+ resultadoPerimetro2);
-		
-		
 		
 	}
 
