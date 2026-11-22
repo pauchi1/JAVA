@@ -6,8 +6,8 @@ public class testRectangulo {
 
 		Rectangulo r1 = new Rectangulo();
 		
-		r1.altura = 5;
-		r1.base = 4;
+		r1.setAltura(5);
+		r1.setBase(4);
 		
 		System.out.println("========================= Primer rectangulo =========================");
 		int resultadoArea = r1.calcularArea();
@@ -17,8 +17,8 @@ public class testRectangulo {
 		
 		Rectangulo r2 = new Rectangulo();
 		
-		r2.altura = 8;
-		r2.base = 2;
+		r2.setAltura(8);
+		r2.setBase(2);
 		
 		System.out.println("========================= Segundo rectangulo =========================");
 		int resultadoArea2 = r2.calcularArea();

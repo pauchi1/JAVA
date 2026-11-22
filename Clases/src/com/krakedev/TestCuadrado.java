@@ -6,7 +6,7 @@ public class TestCuadrado {
 		
 		Cuadrado c1 = new Cuadrado();
 		
-		c1.lado = 4;
+		c1.setLado(4);
 		
 		System.out.println("======================== Cuadrado #1 ========================");
 		System.out.println("");
@@ -17,8 +17,7 @@ public class TestCuadrado {
 		System.out.println("");
 		
 		Cuadrado c2 = new Cuadrado();
-		
-		c2.lado = 5;
+		c2.setLado(5);
 		
 		System.out.println("======================== Cuadrado #2 ========================");
 		System.out.println("");
@@ -30,8 +29,7 @@ public class TestCuadrado {
 		
 		
 		Cuadrado c3= new Cuadrado();
-		
-		c3.lado = 2;
+		c3.setLado(2);
 		
 		System.out.println("======================== Cuadrado #3 ========================");
 		System.out.println("");
