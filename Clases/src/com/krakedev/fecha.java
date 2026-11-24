@@ -6,6 +6,12 @@ public class fecha {
 	private int mes;
 	private int anio;
 	
+	public fecha(int dia, int mes, int anio) {
+		this.anio = anio;
+		this.dia = dia;
+		this.mes = mes;
+	}
+	
 	public int getDia() {
 		return dia;
 	}

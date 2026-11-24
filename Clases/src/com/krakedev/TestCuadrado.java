@@ -4,9 +4,7 @@ public class TestCuadrado {
 
 	public static void main(String[] args) {
 		
-		Cuadrado c1 = new Cuadrado();
-		
-		c1.setLado(4);
+		Cuadrado c1 = new Cuadrado(4);
 		
 		System.out.println("======================== Cuadrado #1 ========================");
 		System.out.println("");
@@ -16,8 +14,7 @@ public class TestCuadrado {
 		System.out.println("Perimetro del cuadrado; " + resultadoPerimetro);
 		System.out.println("");
 		
-		Cuadrado c2 = new Cuadrado();
-		c2.setLado(5);
+		Cuadrado c2 = new Cuadrado(5);
 		
 		System.out.println("======================== Cuadrado #2 ========================");
 		System.out.println("");
@@ -28,8 +25,7 @@ public class TestCuadrado {
 		System.out.println("");
 		
 		
-		Cuadrado c3= new Cuadrado();
-		c3.setLado(2);
+		Cuadrado c3= new Cuadrado(2);
 		
 		System.out.println("======================== Cuadrado #3 ========================");
 		System.out.println("");
